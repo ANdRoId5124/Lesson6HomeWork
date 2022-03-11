@@ -1,12 +1,8 @@
 package Computer;
 
-public class RAM{
+public class RAM {
     String name;
     int value;
-
-    void showRam() {
-        System.out.println("\n" + "RAM: " + name + "\n" + value);
-    }
 
     public RAM() {
     }
@@ -15,16 +11,20 @@ public class RAM{
         this.name = nameRam;
         this.value = valueRam;
     }
-    public void setName(String name){
+
+    public void setName(String name) {
         this.name = name;
     }
-    public String getName(){
+
+    public String getName() {
         return name;
     }
-    public void setValue(int value){
+
+    public void setValue(int value) {
         this.value = value;
     }
-    public int getValue(){
+
+    public int getValue() {
         return value;
     }
 }

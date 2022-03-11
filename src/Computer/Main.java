@@ -7,5 +7,6 @@ public class Main {
         System.out.println();
         Computer computer2 = new Computer(1500, "ASUS", new RAM("Samsung",8), new HDD("HDD",512));
         computer2.computerReview();
+
     }
 }

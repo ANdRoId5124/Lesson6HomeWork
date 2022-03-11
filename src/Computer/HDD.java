@@ -5,10 +5,6 @@ public class HDD{
     String name;
     int value;
 
-    void showHDD() {
-        System.out.println("\n" + "HDD: " + name + value);
-    }
-
     public HDD() {
     }
 
